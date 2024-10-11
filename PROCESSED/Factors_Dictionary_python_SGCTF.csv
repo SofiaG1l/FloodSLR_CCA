@@ -1,0 +1,482 @@
+﻿Factor_Strategy_RGX,Constraint_Type,Tatiana_Factor_Strategy,Tatiana_Category
+years [a-z]* school[a-z]*,Human Capacity,Education,Individual AC
+years [a-z]* farming,Human Capacity,Farming Experience,Individual AC
+worker institution,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+window of opportunit[a-z]*,Tcca-Specific ,TCCA-specific ,TCCA-specific 
+weather information,Information&Awareness,Access To Information,Knowledge and Information
+watershed [a-z]* program[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+availability water,Technology&Infrastructure,Access To Irrigation,Individual AC
+water allocation,Technology&Infrastructure,Access To Irrigation,Individual AC
+water distribution,Technology&Infrastructure,Access To Irrigation,Individual AC
+water availability,Technology&Infrastructure,Access To Irrigation,Individual AC
+water conflict,Technology&Infrastructure,Access To Irrigation,Individual AC
+water [a-z]* consumption[a-z]*,Technology&Infrastructure,Farm Characteristics,Individual AC
+water [a-z]* availab[a-z]*,Technology&Infrastructure,Farm Characteristics,Individual AC
+water [a-z]* access[a-z]*,Technology&Infrastructure,Farm Characteristics,Individual AC
+vulnerab[a-z]* build[a-z]*,Hazard,Damage Experience,Hazard Experience
+vulnerab[a-z]* [a-z]* household[a-z]*,Economic&Financial,Economic Factors,Individual AC
+viral uptake(s|),Tcca-Specific ,TCCA-specific ,TCCA-specific 
+viral spread[a-z]*,Tcca-Specific ,TCCA-specific ,TCCA-specific 
+viral adoption(s|),Tcca-Specific ,TCCA-specific ,TCCA-specific 
+uncertainty [a-z]* climate,Psychological,Psychological Drivers,Psychological factors
+unaffordable [a-z]* cost,Economic&Financial,Economic Factors,Individual AC
+travel[a-z]* cost[a-z]*,Economic&Financial,Access To Market Input Output,Individual AC
+traditional authority,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+traditional authorit[a-z]*,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+technological device,Technology&Infrastructure,Access To Technology,Technology
+technical skill,Human Capacity,Farming Experience,Individual AC
+tailor policies,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+support[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+subsistence[a-z]* farm[a-z]*,Economic&Financial,Economic Factors,Individual AC
+subsistence [a-z]* agricultur[a-z]*,Economic&Financial,Economic Factors,Individual AC
+subsid[a-z]* farm[a-z]*,Economic&Financial,Farm Characteristics,Individual AC
+subsid[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+structural change(s|),Tcca-Specific ,TCCA-specific ,TCCA-specific 
+storage facility,Technology&Infrastructure,Access To Infrastructure,Individual AC
+state government[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+soil salin[a-z]*,Hazard,Damage Experience,Hazard Experience
+soil infertil[a-z]*,Hazard,Damage Experience,Hazard Experience
+soil quality,Hazard,Damage Experience,Hazard Experience
+quality soil,Hazard,Damage Experience,Hazard Experience
+soil erosion,Hazard,Damage Experience,Hazard Experience
+socio(-|\s|)economic factor,Human Capacity,Demographic Factors,Individual AC
+social[a-z]* [a-z]* uence[a-z]*,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+social[a-z]* [a-z]* norm[a-z]*,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+social[a-z]* [a-z]* influence[a-z]*,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+social(\s|-|)welfare program[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+social welfare,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+social participation,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+social norm(s|),Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+social network(s),Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+social learning,Psychological,Psychological Drivers,Psychological factors
+social expectation[a-z]*,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+economy,Economic&Financial,Economic Factors,Individual AC
+social economic,Economic&Financial,Economic Factors,Individual AC
+social cohesion,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+solidarity,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+social capital,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+social benefit,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+smallholder farmer,Economic&Financial,Farm Size,Individual AC
+small(\s|-|)scale farm[a-z]*,Economic&Financial,Farm Characteristics,Individual AC
+small(\s|-|)product[a-z]*,Economic&Financial,Farm Characteristics,Individual AC
+small(\s|-|)holder farm[a-z]*,Economic&Financial,Farm Characteristics,Individual AC
+small [a-z]* farm[a-z]*,Economic&Financial,Farm Characteristics,Individual AC
+skill ability,Human Capacity,Farming Experience,Individual AC
+situation assessment,Psychological,Psychological Drivers,Psychological factors
+sick[a-z]* plant[a-z]*,Hazard,Non-Climate Related Hazard,Hazard Experience
+sick[a-z]* animal[a-z]*,Hazard,Non-Climate Related Hazard,Hazard Experience
+shortage farm,Hazard,Non-Climate Related Hazard,Hazard Experience
+shock hurricane,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+hurricane recover[a-z]*,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+environmental hazard(s|),Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+shift[a-z]* [a-z]* regime,Tcca-Specific ,TCCA-specific ,TCCA-specific 
+shar[a-z]* knowledge,Information&Awareness,Network,Institutional AC - Informal Institutions
+shar[a-z]* information,Information&Awareness,Network,Institutional AC - Informal Institutions
+service provisioning service,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+self(\s|-|)efficacy,Psychological,Psychological Drivers,Psychological factors
+rural life,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+rural development,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+rural communit[a-z]*,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+role institution[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+role institution,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+road network,Technology&Infrastructure,Access To Infrastructure,Individual AC
+risk averse,Psychological,Psychological Drivers,Psychological factors
+return[a-z]* period,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+return[a-z]* [a-z]* investment,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+response(\s|-|)efficacy,Psychological,Psychological Drivers,Psychological factors
+resource[a-z]* [a-z]*,Economic&Financial,Economic Factors,Individual AC
+resource endowment,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+regulation[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+regional government[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+regime shift[a-z]*,Tcca-Specific ,TCCA-specific ,TCCA-specific 
+regime change[a-z]*,Tcca-Specific ,TCCA-specific ,TCCA-specific 
+re(-|\s|)insurance,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+coastal ooding,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+prone area(s|),Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+coastal flooding,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+large damage,Hazard,Damage Experience,Hazard Experience
+damage propert[a-z]*,Hazard,Damage Experience,Hazard Experience
+sea(\s|-|)level rise,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+increas[a-s]* precipitation(s|),Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+drought(s|),Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+rainfall variability,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+public distribution system[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+public adaptation[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+psychological factor,Psychological,Psychological Drivers,Psychological factors
+psychological driver(s|),Psychological,Psychological Drivers,Psychological factors
+psychological barrier(s|),Psychological,Psychological Barriers,Psychological factors
+scepticism,Psychological,Psychological Barriers,Psychological factors
+productive capacity,Technology&Infrastructure,Access To Technology,Technology
+production[a-z]* [a-z]* cost[a-z]*,Economic&Financial,Economic Factors,Individual AC
+private sector,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+practice entire province,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+poverty trap(s|),Tcca-Specific ,TCCA-specific ,TCCA-specific 
+population density,Human Capacity,Demographic Factors,Individual AC
+population sensitive,Human Capacity,Demographic Factors,Individual AC
+reduce population,Human Capacity,Demographic Factors,Individual AC
+population pressure,Human Capacity,Demographic Factors,Individual AC
+population grow[a-z]*,Human Capacity,Demographic Factors,Individual AC
+vulnerable population(s|),Human Capacity,Demographic Factors,Individual AC
+poor[a-z]* [a-z]* household[a-z]*,Economic&Financial,Economic Factors,Individual AC
+poor[a-z]* [a-z]* farmer[a-z]*,Economic&Financial,Economic Factors,Individual AC
+poor income,Economic&Financial,Income,Individual AC
+poor farm[a-z]*,Economic&Financial,Income,Individual AC
+political economic trend,Economic&Financial,Economic Factors,Individual AC
+policy respons[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+policy design,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+policies tailor,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+policy actor(s|),Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+planned adaptation[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+place attachment,Psychological,Psychological Drivers,Psychological factors
+relationship communit[a-z]*,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+performance [a-z]* expectanc[a-z]*,Economic&Financial,Economic Factors,Individual AC
+perceive(d|) risk,Psychological,Psychological Drivers,Psychological factors
+perceive(d|) responsibilit[a-z]*,Psychological,Psychological Drivers,Psychological factors
+perceive(d|) probability,Psychological,Psychological Drivers,Psychological factors
+perceive(d|) inabilit[a-z]*,Psychological,Psychological Barriers,Psychological factors
+perceive(d|) damage,Hazard,Damage Experience,Hazard Experience
+perceiv[a-z]* efficacy,Psychological,Psychological Drivers,Psychological factors
+pay(\s|-|)off,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+participation social,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+outcome(\s|-|)efficacy,Psychological,Psychological Drivers,Psychological factors
+opportunit[a-z]* window,Tcca-Specific ,TCCA-specific ,TCCA-specific 
+number worker farm,Technology&Infrastructure,Access To Infrastructure,Individual AC
+number [a-z]* worker[a-z]*,Technology&Infrastructure,Access To Infrastructure,Individual AC
+non(-|\s|)climat[a-z]* factor(s|),Hazard,Non-Climate Related Hazard,Hazard Experience
+neighbo(u|)r(s|),Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+negative affect[a-z]*,Psychological,Psychological Drivers,Psychological factors
+natural hazard(s|),Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+national strateg[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+national polic[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+national government[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+monsoon variability,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+micro(\s|-|)credit,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+membership social group,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+market[a-z]* distance[a-z]*,Economic&Financial,Economic Factors,Individual AC
+market[a-z]* distance,Economic&Financial,Access To Market Input Output,Individual AC
+market[a-z]* [a-z]* integration[a-z]*,Economic&Financial,Economic Factors,Individual AC
+market failure,Economic&Financial,Economic Factors,Individual AC
+marital status,Human Capacity,Demographic Factors,Individual AC
+mangrove plantation[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+low proportion farmer,Economic&Financial,Farm Size,Individual AC
+long(\s|-|)term investment[a-z]*,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+local knowledge,Information&Awareness,Local Knowledge,local knowledge
+local initiative(s|),Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+local government[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+governance mechanism(s|),Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+local farmer(s|),Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+(?:^|\W)context(?:$|\W),Social&Cultural,Local Context,Individual AC
+circumstance,Social&Cultural,Local Context,Individual AC
+social behavio(u|)r,Social&Cultural,Local Context,Individual AC
+mutual respect(s|),Social&Cultural,Local Context,Individual AC
+inclusive atmosphere(s|),Social&Cultural,Local Context,Individual AC
+local area(s|),Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+local [a-z]* context,Social&Cultural,Local Context,Individual AC
+society history,Social&Cultural,Local Context,Individual AC
+livelihood[a-z]* [a-z]* vulnerab[a-z]*,Economic&Financial,Economic Factors,Individual AC
+literacy level,Human Capacity,Education,Individual AC
+liquidity constraint [a-z]*,Economic&Financial,Economic Factors,Individual AC
+level [a-z]* literacy,Human Capacity,Education,Individual AC
+level [a-z]* education,Human Capacity,Education,Individual AC
+legislat[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+lack[a-z]* [a-z]* option(s|),Psychological,Psychological Barriers,Psychological factors
+lack capital,Economic&Financial,Economic Factors,Individual AC
+lack access,Technology&Infrastructure,Access To Infrastructure,Individual AC
+labour time,Economic&Financial,Farm Characteristics,Individual AC
+climat[a-z]* change knowledge,Human Capacity,Farming Experience,Individual AC
+develop[a-z]* knowledge,Human Capacity,Farming Experience,Individual AC
+knowledge develop[a-z]*,Human Capacity,Farming Experience,Individual AC
+present knowledge,Human Capacity,Farming Experience,Individual AC
+knowledge skill,Human Capacity,Farming Experience,Individual AC
+knowledge construction,Human Capacity,Farming Experience,Individual AC
+knowledge transfer,Information&Awareness,Network,Institutional AC - Informal Institutions
+knowledge shar[a-z]*,Information&Awareness,Network,Institutional AC - Informal Institutions
+knowledge funda[a-z]*,Information&Awareness,Access To Information,Knowledge and Information
+knowledge dissemination,Information&Awareness,Access To Information,Knowledge and Information
+kinship,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+irrigation system,Technology&Infrastructure,Access To Irrigation,Individual AC
+irrigated area,Technology&Infrastructure,Access To Irrigation,Individual AC
+investment[a-z]*,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+investment return[a-z]*,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+international aid[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+interest rate(s|),Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+disconnected communit[a-z]*,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+interaction communit[a-z]*,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+intensification [a-z]* production,Hazard,Damage Experience,Hazard Experience
+insurance(s|),Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+institutional perceptual factor,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+institution[a-z]* role,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+institution[a-z]* barrier(s|),Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+institution[a-z]* constrain[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+innovation [a-z]*,Technology&Infrastructure,Access To Technology,Technology
+infrastructure facility road density,Technology&Infrastructure,Access To Infrastructure,Individual AC
+infrast[a-z]* damag[a-z]*,Hazard,Damage Experience,Hazard Experience
+information shar[a-z]*,Information&Awareness,Network,Institutional AC - Informal Institutions
+informal [a-z]* access water,Technology&Infrastructure,Access To Irrigation,Individual AC
+individual farmer,Economic&Financial,Farm Size,Individual AC
+indigeno(u|)s knowledge,Information&Awareness,Local Knowledge,local knowledge
+indigeno(u|)s practice(s|),Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+indigeno(u|)s knowledge,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+indigen[a-z]* person,Human Capacity,Demographic Factors,Individual AC
+indigen[a-z]* people,Human Capacity,Demographic Factors,Individual AC
+indigen[a-z]* group[a-z]*,Human Capacity,Demographic Factors,Individual AC
+increase [a-z]* [a-z]* rate,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+income[a-z]* [a-z]* source[a-z]*,Economic&Financial,Income,Individual AC
+income[a-z]* [a-z]* level,Economic&Financial,Income,Individual AC
+income[a-z]* [a-z]* agricultur[a-z]*,Economic&Financial,Income,Individual AC
+immense difficulty,Psychological,Psychological Drivers,Psychological factors
+human capital,Human Capacity,Farming Experience,Individual AC
+household[a-z]* [a-z]* socio(\s|-|)economic,Economic&Financial,Economic Factors,Individual AC
+household[a-z]* [a-z]* income[a-z]*,Economic&Financial,Income,Individual AC
+household[a-z]* [a-z]* capital[a-z]*,Economic&Financial,Economic Factors,Individual AC
+household[a-z]* [a-z]* asset[a-z]*,Economic&Financial,Farm Characteristics,Individual AC
+household size,Human Capacity,Demographic Factors,Individual AC
+household community,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+hous[a-z]* damag[a-z]*,Hazard,Damage Experience,Hazard Experience
+hindu[a-z]*,Human Capacity,Demographic Factors,Individual AC
+high(-|\s|)level stakeholder(s|),Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+poor coordination stakeholder(s|),Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+stakeholder(s|) engagement,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+stakeholder(s|) participation,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+hazard experience(s|),Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+harvest loss,Hazard,Damage Experience,Hazard Experience
+guideline,Information&Awareness,Access To Information,Knowledge and Information
+guidance support,Information&Awareness,Access To Information,Knowledge and Information
+group learning,Information&Awareness,Access To Information,Knowledge and Information
+governmental aid[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+government[a-z]* support,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+government[a-z]* program,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+government[a-z]* loan(s|),Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+government[a-z]* bond,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+government[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+fungi pest,Hazard,Non-Climate Related Hazard,Hazard Experience
+friendship network,Information&Awareness,Network,Institutional AC - Informal Institutions
+sub(\s|-|)regional network,Information&Awareness,Network,Institutional AC - Informal Institutions
+regional network,Information&Awareness,Network,Institutional AC - Informal Institutions
+social feedback(s|),Information&Awareness,Network,Institutional AC - Informal Institutions
+policy network,Information&Awareness,Network,Institutional AC - Informal Institutions
+network configuration(s|),Information&Awareness,Network,Institutional AC - Informal Institutions
+network density,Information&Awareness,Network,Institutional AC - Informal Institutions
+local network,Information&Awareness,Network,Institutional AC - Informal Institutions
+social network,Information&Awareness,Network,Institutional AC - Informal Institutions
+kindship,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+family,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+leadership,Information&Awareness,Network,Institutional AC - Informal Institutions
+social(s|) tie(s|),Information&Awareness,Network,Institutional AC - Informal Institutions
+reciprocal(|\s|-)tie(s|),Information&Awareness,Network,Institutional AC - Informal Institutions
+food erosion,Hazard,Damage Experience,Hazard Experience
+food [a-z]* work program[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+food [a-z]* storage[a-z]*,Economic&Financial,Economic Factors,Individual AC
+food [a-z]* [a-z]*security,Economic&Financial,Economic Factors,Individual AC
+financial,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+farmer technical [a-z]*,Human Capacity,Farming Experience,Individual AC
+farmer skill[a-z]*,Human Capacity,Farming Experience,Individual AC
+farmer knowledge,Human Capacity,Farming Experience,Individual AC
+farmer institutional connection,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+farmer abilit[a-z]*,Human Capacity,Farming Experience,Individual AC
+farmer [a-z]* trust,Psychological,Psychological Drivers,Psychological factors
+farm[a-z]* plot,Economic&Financial,Farm Size,Individual AC
+farm[a-z]* infrastructure,Technology&Infrastructure,Access To Infrastructure,Individual AC
+farm[a-z]* experience,Human Capacity,Farming Experience,Individual AC
+farm[a-z]* distance,Economic&Financial,Access To Market Input Output,Individual AC
+farm[a-z]* [a-z]* underst[a-z]*,Human Capacity,Farming Experience,Individual AC
+farm[a-z]* [a-z]* technology,Technology&Infrastructure,Access To Infrastructure,Individual AC
+farm[a-z]* [a-z]* income[a-z]*,Economic&Financial,Income,Individual AC
+farm technolog[a-z]*,Technology&Infrastructure,Access To Infrastructure,Individual AC
+farm size,Economic&Financial,Farm Size,Individual AC
+farm infrastructure,Technology&Infrastructure,Access To Infrastructure,Individual AC
+farm characteristic[a-z]*,Technology&Infrastructure,Access To Infrastructure,Individual AC
+family[a-z]* [a-z]* income[a-z]*,Economic&Financial,Income,Individual AC
+family [a-z]* structure,Human Capacity,Demographic Factors,Individual AC
+family [a-z]* health,Human Capacity,Health,Individual AC
+familiar[a-z]*,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+extreme rain[a-z]* event,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+extension service(s|),Information&Awareness,Access To Information,Knowledge and Information
+extension provider(s|),Information&Awareness,Access To Information,Knowledge and Information
+experimental knowledge,Human Capacity,Farming Experience,Individual AC
+experience farm[a-z]*,Human Capacity,Farming Experience,Individual AC
+experience,Human Capacity,Farming Experience,Individual AC
+expensive[a-z]* [a-z]* adopt[a-z]*,Economic&Financial,Economic Factors,Individual AC
+expensive[a-z]* [a-z]* adapt[a-z]*,Economic&Financial,Economic Factors,Individual AC
+ethnicit[a-z]*,Human Capacity,Demographic Factors,Individual AC
+establishment group(s|),Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+environmental group(s|),Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+employment[a-z]*,Economic&Financial,Economic Factors,Individual AC
+employment,Economic&Financial,Economic Factors,Individual AC
+emergency fund[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+education system,Human Capacity,Education,Individual AC
+education level,Human Capacity,Education,Individual AC
+education,Human Capacity,Education,Individual AC
+economic[a-z]* [a-z]* dimension[a-z]*,Economic&Financial,Economic Factors,Individual AC
+economic[a-z]* [a-z]*,Economic&Financial,Economic Factors,Individual AC
+economic challenge(s|),Economic&Financial,Economic Factors,Individual AC
+distributi[a-z]* [a-z]* effect[a-z]*,Economic&Financial,Economic Factors,Individual AC
+distance market[a-z]*,Economic&Financial,Access To Market Input Output,Individual AC
+distance farm[a-z]*,Economic&Financial,Access To Market Input Output,Individual AC
+dissemination [a-z]* drought[a-z]*,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+develop countr[a-z]*,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+polic[a-z]* will,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+lack polic[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+coastal polic[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+design policy,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+design policies,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+depression,Psychological,Psychological Barriers,Psychological factors
+demographic factor(s|),Human Capacity,Demographic Factors,Individual AC
+demographic change(s|),Human Capacity,Demographic Factors,Individual AC
+number family,Human Capacity,Demographic Factors,Individual AC
+degree [a-z]* agency,Psychological,Psychological Drivers,Psychological factors
+death plant[a-z]*,Hazard,Non-Climate Related Hazard,Hazard Experience
+death animal[a-z]*,Hazard,Non-Climate Related Hazard,Hazard Experience
+de(\s|-|)forestation,Hazard,Damage Experience,Hazard Experience
+damag[a-z]* experience[a-z]*,Hazard,Damage Experience,Hazard Experience
+damag[a-z]* curv[a-z]*,Hazard,Damage Experience,Hazard Experience
+crop[a-z]* [a-z]* productivit[a-z]*,Economic&Financial,Economic Factors,Individual AC
+crop[a-z]* [a-z]* production[a-z]*,Economic&Financial,Economic Factors,Individual AC
+crop failure,Hazard,Damage Experience,Hazard Experience
+cost[a-z]* adaptation,Economic&Financial,Economic Factors,Individual AC
+cost[a-z]* [a-z]* travel[a-z]*,Economic&Financial,Access To Market Input Output,Individual AC
+cost[a-z]* [a-z]* prod[a-z]*,Economic&Financial,Economic Factors,Individual AC
+cost[a-z]* [a-z]* management[a-z]*,Economic&Financial,Economic Factors,Individual AC
+water management[a-z]*,Economic&Financial,Economic Factors,Individual AC
+cost[a-z]* [a-z]* crop[a-z]*,Economic&Financial,Economic Factors,Individual AC
+concern[a-z]* [a-z]* risk,Psychological,Psychological Drivers,Psychological factors
+compensation ([a-z]*){2} loss[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+company size,Economic&Financial,Farm Size,Individual AC
+common[a-z]* unders[a-z]*,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+colonialism,Human Capacity,Demographic Factors,Individual AC
+coloni(s|z)[a-z]*,Human Capacity,Demographic Factors,Individual AC
+collective action,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+collaps[a-z]* [a-z]* system,Hazard,Damage Experience,Hazard Experience
+cognitive dissonance,Psychological,Psychological Barriers,Psychological factors
+psychological stress,Psychological,Psychological Barriers,Psychological factors
+coastal resourc[a-z]*,Economic&Financial,Assets,Individual AC
+climate change vulnerab[a-z]*,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+climat[a-z]* vulnera[a-z]*,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+climat[a-z]* stress,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+climat[a-z]* service[a-z]*,Information&Awareness,Access To Information,Knowledge and Information
+climat[a-z]* risk,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+climat[a-z]* forecast[a-z]*,Information&Awareness,Access To Information,Knowledge and Information
+civil societ[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+cit[a-z]* government[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+christian[a-z]*,Human Capacity,Demographic Factors,Individual AC
+change[a-z]* [a-z]* regime ,Tcca-Specific ,TCCA-specific ,TCCA-specific 
+change [a-z]* biophysical environment,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+cellular phone,Information&Awareness,Access To Information,Knowledge and Information
+capacity building,Human Capacity,Farming Experience,Individual AC
+build[a-z]* vulnerab[a-z]*,Hazard,Damage Experience,Hazard Experience
+build[a-z]* damag[a-z]*,Hazard,Damage Experience,Hazard Experience
+availab[a-z]* summer season,Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+extreme weather event(s|),Hazard,Climate-Change Related Hazard Experience,Hazard Experience
+asset[a-z]* damag[a-z]*,Hazard,Damage Experience,Hazard Experience
+alternative water(\s|-|)source,Technology&Infrastructure,Access To Irrigation,Individual AC
+agricult[a-z]* [a-z]* income[a-z]*,Economic&Financial,Income,Individual AC
+adaptive capacity,Human Capacity,Adaptive Capacity,adaptive capacity
+adaptation policy,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+adaptation policies,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+adaptation cost[a-z]*,Economic&Financial,Economic Factors,Individual AC
+access[a-z]* improv[a-z]* productivity,Economic&Financial,Economic Factors,Individual AC
+access[a-z]* [a-z]* technolog[a-z]*,Technology&Infrastructure,Access To Technology,Technology
+access[a-z]* [a-z]* irrigation,Technology&Infrastructure,Access To Irrigation,Individual AC
+access[a-z]* [a-z]* infrastructure(s|),Technology&Infrastructure,Access To Infrastructure,Individual AC
+access[a-z]* [a-z]* financ[a-z]*,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+access[a-z]* [a-z]* credit[a-z]*,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+access[a-z]* [a-z]* [a-z]* water resource,Technology&Infrastructure,Access To Irrigation,Individual AC
+access [a-z]* market input output,Economic&Financial,Access To Market Input Output,Individual AC
+acces[a-z]* [a-z]* market,Economic&Financial,Access To Market Input Output,Individual AC
+acces[a-z]* [a-z]* information,Information&Awareness,Access To Information,Knowledge and Information
+acces[a-z]* [a-z]* credit,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+absence [a-z]* infrastructure,Technology&Infrastructure,Farm Characteristics,Individual AC
+[a-z]*(\s|-|)income,Economic&Financial,Income,Individual AC
+[a-z]* farm[a-z]* [a-z]* credit[a-z]*,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+(?:^|\W)young(?:$|\W),Human Capacity,Age,Individual AC
+(?:^|\W)worr[a-z]*,Psychological,Psychological Drivers,Psychological factors
+(?:^|\W)women(?:$|\W),Human Capacity,Gender,Individual AC
+(?:^|\W)woman(?:$|\W),Human Capacity,Gender,Individual AC
+(?:^|\W)wealth[a-z]*,Economic&Financial,Income,Individual AC
+(?:^|\W)trust(?:$|\W),Psychological,Psychological Drivers,Psychological factors
+(?:^|\W)training,Information&Awareness,Access To Information,Knowledge and Information
+(?:^|\W)tradition[a-z]*,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+(?:^|\W)television,Technology&Infrastructure,Access To Technology,Technology
+(?:^|\W)technology,Technology&Infrastructure,Access To Technology,Technology
+(?:^|\W)subsidy,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+(?:^|\W)spread  ,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+(?:^|\W)skill(?:$|\W),Human Capacity,Farming Experience,Individual AC
+(?:^|\W)shock,Tcca-Specific ,TCCA-specific ,TCCA-specific 
+(?:^|\W)school,Human Capacity,Education,Individual AC
+(?:^|\W)saving[a-z]*,Economic&Financial,Economic Factors,Individual AC
+(?:^|\W)risk,Psychological,Psychological Drivers,Psychological factors
+(?:^|\W)religion,Human Capacity,Demographic Factors,Individual AC
+(?:^|\W)refund[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+(?:^|\W)race(?:$|\W),Human Capacity,Demographic Factors,Individual AC
+people race,Human Capacity,Demographic Factors,Individual AC
+people color,Human Capacity,Demographic Factors,Individual AC
+(?:^|\W)program[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+(?:^|\W)profit[a-z]*,Economic&Financial,Economic Factors,Individual AC
+(?:^|\W)productivit[a-z]*,Economic&Financial,Economic Factors,Individual AC
+(?:^|\W)production,Economic&Financial,Economic Factors,Individual AC
+(?:^|\W)practice(?:$|\W),Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+(?:^|\W)povert[a-z]*,Economic&Financial,Economic Factors,Individual AC
+(?:^|\W)perception,Psychological,Psychological Drivers,Psychological factors
+(?:^|\W)peer(?:$|\W),Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+(?:^|\W)payback,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+householder,Economic&Financial,Owner,Individual AC
+(?:^|\W)own[a-z]*,Economic&Financial,Owner,Individual AC
+(?:^|\W)old(?:$|\W),Human Capacity,Age,Individual AC
+(?:^|\W)neighbour,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+(?:^|\W)muslim[a-z]*,Human Capacity,Demographic Factors,Individual AC
+(?:^|\W)municipal[a-z]*,Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+(?:^|\W)motivation ,Psychological,Psychological Drivers,Psychological factors
+(?:^|\W)mother(?:$|\W),Human Capacity,Gender,Individual AC
+(?:^|\W)money,Economic&Financial,Economic Factors,Individual AC
+(?:^|\W)men(?:$|\W),Human Capacity,Gender,Individual AC
+(?:^|\W)market[a-z]*,Economic&Financial,Economic Factors,Individual AC
+(?:^|\W)man(?:$|\W),Human Capacity,Gender,Individual AC
+(?:^|\W)male(?:$|\W),Human Capacity,Gender,Individual AC
+(?:^|\W)loan(s|),Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+(?:^|\W)law(?:$|\W),Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+institutional norm(s|),Governance&Institutions,Government Support,Institutional AC - Formal Institutions
+(?:^|\W)investment,Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+(?:^|\W)innovator(?:$|\W),Human Capacity,Farming Experience,Individual AC
+(?:^|\W)inherit[a-z]*(?:$|\W),Economic&Financial,Owner,Individual AC
+(?:^|\W)information,Information&Awareness,Access To Information,Knowledge and Information
+(?:^|\W)inequalit[a-z]*,Economic&Financial,Economic Factors,Individual AC
+(?:^|\W)income,Economic&Financial,Income,Individual AC
+(?:^|\W)inability,Human Capacity,Farming Experience,Individual AC
+(?:^|\W)health,Human Capacity,Health,Individual AC
+(?:^|\W)hunger,Human Capacity,Health,Individual AC
+(?:^|\W)girl[a-z]*(?:$|\W),Human Capacity,Gender,Individual AC
+(?:^|\W)gender(?:$|\W),Human Capacity,Gender,Individual AC
+(?:^|\W)friend,Social&Cultural,Social Capital,Institutional AC - Informal Institutions
+(?:^|\W)female(?:$|\W),Human Capacity,Gender,Individual AC
+(?:^|\W)fear[a-z]*(?:$|\W),Psychological,Psychological Drivers,Psychological factors
+(?:^|\W)father(?:$|\W),Human Capacity,Gender,Individual AC
+(?:^|\W)famine,Hazard,Non-Climate Related Hazard,Hazard Experience
+(?:^|\W)elderly(?:$|\W),Human Capacity,Age,Individual AC
+(?:^|\W)drastic,Tcca-Specific ,TCCA-specific ,TCCA-specific 
+(?:^|\W)desire(?:$|\W),Psychological,Psychological Drivers,Psychological factors
+(?:^|\W)denial(?:$|\W),Psychological,Psychological Barriers,Psychological factors
+(?:^|\W)debt(s|),Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+colon[a-z]* identi[a-z]*,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+social identi[a-z]*,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+(?:^|\W)cultur[a-z]*(?:$|\W),Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+(?:^|\W)cooperative [a-z]*,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+(?:^|\W)contagion,Social&Cultural,Cultural Social Norms,Institutional AC - Informal Institutions
+(?:^|\W)confidence,Psychological,Psychological Drivers,Psychological factors
+(?:^|\W)collapse ,Tcca-Specific ,TCCA-specific ,TCCA-specific 
+(?:^|\W)child[a-z]*,Human Capacity,Demographic Factors,Individual AC
+(?:^|\W)child(?:$|\W),Human Capacity,Age,Individual AC
+(?:^|\W)cast(?:$|\W),Human Capacity,Demographic Factors,Individual AC
+(?:^|\W)budd[a-z]*,Human Capacity,Demographic Factors,Individual AC
+(?:^|\W)black,Human Capacity,Demographic Factors,Individual AC
+(?:^|\W)belief(s|),Psychological,Psychological Drivers,Psychological factors
+(?:^|\W)bankrupt[a-z]*,Economic&Financial,Economic Factors,Individual AC
+(?:^|\W)bank(s|),Economic&Financial,Access To Finance,Institutional AC - Formal Institutions
+(?:^|\W)aware[a-z]*,Psychological,Psychological Drivers,Psychological factors
+(?:^|\W)autonom[a-z]*,Psychological,Psychological Drivers,Psychological factors
+(?:^|\W)asset(?:$|\W),Economic&Financial,Assets,Individual AC
+(?:^|\W)anxiet[a-z]*,Psychological,Psychological Barriers,Psychological factors
+(?:^|\W)aging(?:$|\W),Human Capacity,Age,Individual AC
+(?:^|\W)agency[a-z]*(?:$|\W),Psychological,Psychological Drivers,Psychological factors
+(?:^|\W)age(?:$|\W),Human Capacity,Age,Individual AC
+(?:^|\W)able(?:$|\W),Human Capacity,Farming Experience,Individual AC
+(?:^|\W)abilit[a-z]*,Human Capacity,Farming Experience,Individual AC

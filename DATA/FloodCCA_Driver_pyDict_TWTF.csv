@@ -1,0 +1,242 @@
+﻿Labeler,Umbrella_Category,Acronym,Category,Adaptation_Name_org,Adaptation_Name,Adaptation_REGEX
+Thorid,Accommodate,A,risk communication to residents,adaptation communication,(A) adaptation communication,ood[a-z]* map[a-z]*
+Thorid,Accommodate,A,risk communication to residents,adaptation communication,(A) adaptation communication,flood[a-z]* map[a-z]*
+Thorid,Accommodate,A,risk communication to residents,adaptation communication,(A) adaptation communication,adaptation communication
+Sofia,Accommodate,A,tolerant food production,aquaculture,(A) aquaculture,aquaculture
+Thorid,Accommodate,A,knowledge,building of expertise,(A) building of expertise,building [a-z]* expertise
+Sofia,Accommodate,A,building codes,building codes,(A) building codes,building code(s|)
+Sofia,Accommodate,A,building elevation,building elevation,(A) building elevation,building elevation
+Thorid,Accommodate,A,knowledge,building of expertise,(A) building of expertise,building expertise
+Sofia,Accommodate,A,stormwater collection,stormwater collection,(A) stormwater collection,collect[a-z]* [a-z]* stormwater
+Sofia,Accommodate,A,risk communication to residents,risk communication to residents,(A) risk communication to residents,communicat[a-z]* risk(s|)
+Sofia,Accommodate,A,disaster relief,disaster relief,(A) disaster relief,disaster(s|) relief
+Sofia,Accommodate,A,stormwater drainage and pumping,stormwater drainage,(A) stormwater drainage,drain[a-z]* [a-z]* stormwater
+Sofia,Accommodate,A,accommodation protection,flood proofing,(A) flood proofing,dry(-|\s)proof[a-z]*
+Sofia,Accommodate,A,early-warning systems,early-warning systems,(A) early-warning systems,early(\s|-|)warning system(s|)
+Thorid,Accommodate,A,risk communication to residents,risk communication to residents,(A) risk communication to residents,educat[a-z]* [a-z]* risk(s|)
+Sofia,Accommodate,A,building elevation,elevation of structures,(A) elevation of structures,elevat[a-z]* [a-z]* build[a-z]*
+Sofia,Accommodate,A,building elevation,elevation of structures,(A) elevation of structures,elevat[a-z]* [a-z]* home
+Sofia,Accommodate,A,building elevation,elevation of structures,(A) elevation of structures,elevat[a-z]* [a-z]* house
+Sofia,Accommodate,A,building elevation,elevation of structures,(A) elevation of structures,elevat[a-z]* [a-z]* structure(s|)
+Sofia,Accommodate,A,emergency management,emergency management,(A) emergency management,recovery operation(s|)
+Sofia,Accommodate,A,emergency management,emergency management,(A) emergency management,disaster(|s) recover[a-z]*
+Sofia,Accommodate,A,emergency management,emergency management,(A) emergency management,emergenc[a-z]* manag[a-z]*
+Sofia,Accommodate,A,emergency management,emergency management,(A) emergency management,emergenc[a-z]* respons[a-z]*
+Thorid,Accommodate,A,knowledge,building of expertise,(A) building of expertise,expertise building
+Sofia,Accommodate,A,flood insurance policies,flood insurance policies,(A) flood insurance policies,flood insur[a-z]*
+Sofia,Accommodate,A,tolerant food production,flood-tolerant food production,(A) flood-tolerant food production,flood(\s|-|)tolerant agriculture
+Sofia,Accommodate,A,tolerant food production,flood-tolerant food production,(A) flood-tolerant food production,flood(\s|-|)tolerant food
+Sofia,Accommodate,A,accommodation protection,flood proofing,(A) flood proofing,flood(-|\s)proof[a-z]*
+Sofia,Accommodate,A,management of flood control,management of flood control,(A) management of flood control,flood(|-|\s)control management
+Sofia,Accommodate,A,building elevation,elevation of structures,(A) elevation of structures,home elevat[a-z]*
+Sofia,Accommodate,A,building elevation,elevation of structures,(A) elevation of structures,house elevat[a-z]*
+Thorid,Accommodate,A,risk communication to residents,risk communication to residents,(A) risk communication to residents,inform [a-z]* risk(s|)
+Sofia,Accommodate,A,emergency management,emergency management,(A) emergency management,manag[a-z]* [a-z]* emergenc[a-z]*
+Sofia,Accommodate,A,management of flood control,management of flood control,(A) management of flood control,management [a-z]* flood(|-|\s)control
+Sofia,Accommodate,A,permeable surfaces,permeable surfaces,(A) permeable surfaces,permeable surface(|s)
+Sofia,Accommodate,A,septic tank permitting,septic tank permitting,(A) septic tank permitting,permit[a-z]* [a-z]* septic tank
+Sofia,Accommodate,A,stormwater drainage and pumping,stormwater pumping,(A) stormwater pumping,pump[a-z]* [a-z]* stormwater
+Thorid,Accommodate,A,repurposing,repurposing,(A) repurposing,repurpos[a-z]*
+Sofia,Accommodate,A,risk communication to residents,risk communication to residents,(A) risk communication to residents,risk communication
+Thorid,Accommodate,A,risk communication to residents,risk communication to residents,(A) risk communication to residents,risk inform[a-z]*
+Thorid,Accommodate,A,risk communication to residents,risk communication to residents,(A) risk communication to residents,risk(s|) educat[a-z]*
+Thorid,Accommodate,A,risk communication to residents,risk communication to residents,(A) risk communication to residents,risk(s|) inform[a-z]*
+Sofia,Accommodate,A,tolerant food production,salt-tolerant food production,(A) salt-tolerant food production,salt(\s|-|)tolerant agriculture
+Sofia,Accommodate,A,tolerant food production,salt-tolerant food production,(A) salt-tolerant food production,salt(\s|-|)tolerant [a-z]* farm[a-z]*
+Sofia,Accommodate,A,tolerant food production,salt-tolerant food production,(A) salt-tolerant food production,salt(\s|-|)tolerant farm[a-z]*
+Sofia,Accommodate,A,tolerant food production,salt-tolerant food production,(A) salt-tolerant food production,salt(\s|-|)tolerant food
+Sofia,Accommodate,A,septic tank permitting,septic tank permitting,(A) septic tank permitting,septic tank permit[a-z]*
+Sofia,Accommodate,A,stormwater collection,stormwater collection,(A) stormwater collection,stormwater collect[a-z]*
+Sofia,Accommodate,A,stormwater drainage and pumping,stormwater drainage,(A) stormwater drainage,stormwater drain[a-z]*
+Sofia,Accommodate,A,stormwater drainage and pumping,stormwater pumping,(A) stormwater pumping,stormwater pump[a-z]*
+Sofia,Accommodate,A,accommodation protection,flood proofing,(A) flood proofing,wet(-|\s)proof[a-z]*
+Sofia,Accommodate,A,nature-based solutions,nature-based solutions,(A) nature-based solutions,nature(-|\s|)base(d) solution(s)
+Thorid,Accommodate,A,risk communication to residents,adaptation communication,(A) adaptation communication,adaptation education
+Sofia,Accommodate,A,flood insurance policies,flood insurance policies,(A) flood insurance policies,ood insur[a-z]*
+Sofia,Accommodate,A,tolerant food production,flood-tolerant food production,(A) flood-tolerant food production,ood(\s|-|)tolerant agriculture
+Sofia,Accommodate,A,tolerant food production,flood-tolerant food production,(A) flood-tolerant food production,ood(\s|-|)tolerant food
+Sofia,Accommodate,A,accommodation protection,flood proofing,(A) flood proofing,ood(-|\s)proof[a-z]*
+Sofia,Accommodate,A,management of flood control,management of flood control,(A) management of flood control,ood(|-|\s)control management
+Sofia,Accommodate,A,management of flood control,polder management,(A) polder management,polder manag[a-z]*
+Sofia,Accommodate,A,management of flood control,polder management,(A) polder management,polder water manag[a-z]*
+Sofia,Accommodate,A,management of flood control,management of flood control,(A) management of flood control,management [a-z]* ood(|-|\s)control
+Sofia,Accommodate,A,management of flood control,polder management,(A) polder management,flooding depolderisation
+Sofia,Accommodate,A,management of flood control,polder management,(A) polder management,ooding depolderisation
+Sofia,Accommodate,A,management of flood control,management of flood control,(A) management of flood control,adapt[a-z]* manag[a-z]*
+Thorid,Accommodate,A,risk communication to residents,adaptation communication,(A) adaptation communication,adaptation information
+Sofia,Accommodate,A,nature-based solutions,nature-based solutions,(A) nature-based solutions,nature(-|\s|)base(d) adaptation(s)
+Thorid,Zoning,Z,land use zoning,land acquisition,(Z) land acquisition,acqui[a-z]* [a-z]* land
+Sofia,Zoning,Z,development rights transfers,development rights transfers,(Z) development rights transfers,development rights transfer(s|)
+Sofia,Zoning,Z,down zoning,down zoning,(Z) down zoning,down zoning
+Thorid,Zoning,Z,land use zoning,land acquisition,(Z) land acquisition,land acquisition
+Thorid,Zoning,Z,land use zoning,land use regulations,(Z) land use regulations,land(\s|-|)use regulation(s|)
+Thorid,Zoning,Z,land use zoning,land use restrictions ,(Z) land use restrictions ,land(\s|-|)use restriction(s|)
+Sofia,Zoning,Z,land use zoning,land use zoning,(Z) land use zoning,land(\s|-|)use zoning
+Thorid,Zoning,Z,land use zoning,no-build zone,(Z) no-build zone,no(\s|-|)build zone(s|)
+Sofia,Zoning,Z,preservation of waterfront access,preservation of waterfront access,(Z) preservation of waterfront access,preservation [a-z]* waterfront access
+Sofia,Zoning,Z,priority investment areas,priority investment areas,(Z) priority investment areas,priority investment area(s|)
+Sofia,Zoning,Z,property tax policies,property tax policies,(Z) property tax policies,property tax policie(s|)
+Sofia,Zoning,Z,setbacks,setbacks,(Z) setbacks,setback(s|)
+Sofia,Zoning,Z,siting of infrastructure outside floodplain,siting of infrastructure outside floodplain,(Z) siting of infrastructure outside floodplain,siting [a-z]* infrastructure outside floodplain
+Sofia,Zoning,Z,preservation of waterfront access,preservation of waterfront access,(Z) preservation of waterfront access,waterfront(\s|-|)access preservation
+Sofia,Zoning,Z,siting of infrastructure outside floodplain,siting of infrastructure outside floodplain,(Z) siting of infrastructure outside floodplain,siting [a-z]* infrastructure outside oodplain
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,flood adapt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,adapt[a-z]* flood
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,adapt[a-z]* [a-z]* flood
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,sea(|-|\s)level rise adapt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,adapt[a-z]* sea(|-|\s)level rise
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,adapt[a-z]* [a-z]* sea(|-|\s)level rise
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,coping strateg[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,"adapt[a-z]* [[a-z]*\s{0,1}]{0,1}climat[a-z]*"
+Sofia,Retreat,R,pre-disaster plans for post-disaster relocations,pre-disaster plans for post-disaster relocations,(R) pre-disaster plans for post-disaster relocations,contingenc[a-z]* plan[a-z]*
+Sofia,Retreat,R,pre-disaster plans for post-disaster relocations,pre-disaster plans for post-disaster relocations,(R) pre-disaster plans for post-disaster relocations,adapt[a-z]* plan[a-z]*
+Sofia,Retreat,R,pre-disaster plans for post-disaster relocations,pre-disaster plans for post-disaster relocations,(R) pre-disaster plans for post-disaster relocations,plan[a-z]* adapt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,adapt[a-z]* action(s)
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,adapt[a-z]* behavi(u|)or(s|)
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,adapt[a-z]* climat[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,adapt[a-z]* measure(s)
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,adapt[a-z]* response
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,adapt[a-z]* strateg[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,effective adapt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,resilienc[a-z]* capacit[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,resilienc[a-z]* strateg[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,resilienc[a-z]* communit[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,communit[a-z]* resilienc[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Transformational Adaptation,(G) Climate Change Transformational Adaptation,socia[a-z]* transform[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Transformational Adaptation,(G) Climate Change Transformational Adaptation,transform[a-z]* strateg[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,structural adapt[az-]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,^adaptation$
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,"adop[a-z]* [[a-z]*\s{0,1}]{0,1}adapt[a-z]*"
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,"barrier[a-z]* [[a-z]*\s{0,1}]{0,1}adapt[a-z]*"
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,"succes[a-z]* [[a-z]*\s{0,1}]{0,1}adopt[a-z]*"
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,"intensi[a-z]* [[a-z]*\s{0,1}]{0,1}adopt[a-z]*"
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,"climat[a-z]* [[a-z]*\s{0,1}]{0,1}adapt[a-z]*"
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,"farm[a-z]* [[a-z]*\s{0,1}]{0,1}adapt[a-z]*"
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,farm[a-z]* adapt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,"government[a-z]* [[a-z]*\s{0,1}]{0,1}adapt[a-z]*"
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,government[a-z]* adapt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,hard adapt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,"household[a-z]* [[a-z]*\s{0,1}]{0,1}adapt[a-z]*"
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,(?:^|\W)cca
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,household[a-z]* adapt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,incremental[a-z]* adapt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,farm[a-z]* adopt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,"individual[a-z]* [[a-z]*\s{0,1}]{0,1}adapt[a-z]*"
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,individual[a-z]* adapt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,individual[a-z]* adopt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,"intensi[a-z]* [[a-z]*\s{0,1}]{0,1}adapt[a-z]*"
+Sofia,General CCA Measure,G,General,Climate Change Maladaptation,(G) Climate Change Maladaptation,mal(-|\s|)adapt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,urban[a-z]* adopt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,privat[a-z]* adapt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,household[a-z]* adopt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,"proba[a-z]* [[a-z]*\s{0,1}]{0,1}adapt[a-z]*"
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,"succes[a-z]* [[a-z]*\s{0,1}]{0,1}adapt[a-z]*"
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,government[a-z]* adopt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Transformational Adaptation,(G) Climate Change Transformational Adaptation,transformatio[a-z]* adapt[a-z]*
+Sofia,General CCA Measure,G,General,Climate Change Transformational Adaptation,(G) Climate Change Transformational Adaptation,transformat[a-z]* change(s|)
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,"urban[a-z]* [[a-z]*\s{0,1}]{0,1}adapt[a-z]*"
+Thorid,General CCA Measure,G,political involvement / lobbying for policies,political involvement,(G) political involvement,lobbying [a-z]* policies
+Thorid,General CCA Measure,G,political involvement / lobbying for policies,political involvement,(G) political involvement,polic[a-z]* chang[a-z]*
+Thorid,General CCA Measure,G,political involvement / lobbying for policies,political involvement,(G) political involvement,polic[a-z]* develop[a-z]*
+Thorid,General CCA Measure,G,political involvement / lobbying for policies,political involvement,(G) political involvement,polic[a-z]* lobbying
+Thorid,General CCA Measure,G,political involvement / lobbying for policies,political involvement,(G) political involvement,climat[a-z]* polic[a-z]*
+Thorid,General CCA Measure,G,political involvement / lobbying for policies,political involvement,(G) political involvement,political involvement
+Sofia,General CCA Measure,G,General,Climate Change Adaptation,(G) Climate Change Adaptation,urban[a-z]* adapt[a-z]*
+Sofia,Retreat,R,pre-disaster plans for post-disaster relocations,pre-disaster plans for post-disaster relocations,(R) pre-disaster plans for post-disaster relocations,plan[a-z]* [a-z]* pre(-|\s|)disaster(s|)
+Sofia,Retreat,R,pre-disaster plans for post-disaster relocations,pre-disaster plans for post-disaster relocations,(R) pre-disaster plans for post-disaster relocations,prepared[a-z]* flood
+Sofia,Retreat,R,pre-disaster plans for post-disaster relocations,pre-disaster plans for post-disaster relocations,(R) pre-disaster plans for post-disaster relocations,flood prepared[a-z]*
+Sofia,Retreat,R,pre-disaster plans for post-disaster relocations,pre-disaster plans for post-disaster relocations,(R) pre-disaster plans for post-disaster relocations,pre(-|\s|)disaster(s|) plan[a-z]*
+Sofia,Protect,P,seawalls,dam,(P) dam,(?:^|\W)dam(s|)(?:$|\W)
+Sofia,Protect,P,flood control structures,flood retention areas,(P) flood retention areas,area(s|) [a-z]* flood retention
+Thorid,Protect,P,flood control structures,bayous ,(P) bayous ,bayou(s|)
+Sofia,Protect,P,beach replenishment,beach nourishment,(P) beach nourishment,beach nourishment
+Sofia,Protect,P,beach replenishment,beach replenishment,(P) beach replenishment,beach replenishment
+Sofia,Protect,P,wave dissipation structure,break water,(P) break water,break water
+Sofia,Protect,P,canals,canals,(P) canals,canal(s|)
+Thorid,Protect,P,community,community organisation,(P) community organisation,community organi(s|z)ation
+Thorid,Protect,P,community,community organisation,(P) community organisation,communit[a-z]* planning
+Thorid,Protect,P,community,community organisation,(P) community organisation,local planning
+Thorid,Protect,P,community,community organisation,(P) community organisation,local plan(s|)
+Sofia,Protect,P,flood control structures,constructed dunes,(P) constructed dunes,construct[a-z]* [a-z]* dune(|s)
+Sofia,Protect,P,flood control structures,constructed dunes,(P) constructed dunes,construct[a-z]* dune(|s)
+Sofia,Protect,P,seawalls,dykes,(P) dykes,d(y|i)ke[a-z]*
+Sofia,Protect,P,land raising,river diversion,(P) river diversion,diversion [a-z]* river
+Sofia,Protect,P,flood control structures,drainage canals,(P) drainage canals,drainage canal(s|)
+Sofia,Protect,P,flood control structures,drainage pumps,(P) drainage pumps,drainage pump(s|)
+Sofia,Protect,P,flood control structures,drainage systems,(P) drainage systems,drainage system(s|)
+Sofia,Protect,P,flood control structures,drainage systems,(P) drainage systems,flood[a-z]* drainage
+Sofia,Protect,P,flood control structures,drainage systems,(P) drainage systems,ood[a-z]* drainage
+Thorid,Protect,P,beach replenishment,dune nourishment,(P) dune nourishment,dune nourishment
+Thorid,Protect,P,beach replenishment,dune reconstruction,(P) dune reconstruction,dune reconstruction
+Thorid,Protect,P,beach replenishment,dune replenishment,(P) dune replenishment,dune replenishment
+Sofia,Protect,P,beach replenishment,dune replenishment,(P) dune replenishment,dune restoration
+Sofia,Protect,P,flood control structures,constructed dunes,(P) constructed dunes,dune(|s) [a-z]* construct[a-z]*
+Sofia,Protect,P,flood control structures,flood retention areas,(P) flood retention areas,flood retention area(s|)
+Sofia,Protect,P,flood control structures,flood control structures,(P) flood control structures,flood(\s|-|)control structure(|s)
+Sofia,Protect,P,flood control structures,flood gate,(P) flood gate,flood(\s|-|)gate
+Sofia,Protect,P,flood control structures,floodways,(P) floodways,floodway(s|)
+Sofia,Protect,P,flood control structures,flood retention areas,(P) flood retention areas,area(s|) [a-z]* ood retention
+Sofia,Protect,P,flood control structures,flood retention areas,(P) flood retention areas,ood retention area(s|)
+Sofia,Protect,P,flood control structures,flood control structures,(P) flood control structures,ood(\s|-|)control structure(|s)
+Sofia,Protect,P,flood control structures,flood gate,(P) flood gate,ood(\s|-|)gate
+Sofia,Protect,P,flood control structures,floodways,(P) floodways,oodway(s|)
+Sofia,Protect,P,flood control structures,flood control structures,(P) flood control structures,structure(|s) [a-z]* ood(\s|-|)control
+Sofia,Protect,P,grade raising,grade raising,(P) grade raising,grade rais[a-z]*
+Sofia,Protect,P,green–gray infrastructure,restoration of green spaces,(P) restoration of green spaces,green(\s|-|)space(s|) restora[a-z]*
+Sofia,Protect,P,green–gray infrastructure,green–gray infrastructure,(P) green–gray infrastructure,green(-|\s|)gray infrastructure(s|)
+Sofia,Protect,P,protection measures,groyne,(P) groyne,groyne(s|)
+Sofia,Protect,P,protection measures,groyne,(P) groyne,jettie(s|)
+Sofia,Protect,P,land raising,land raising,(P) land raising,land rais[a-z]*
+Sofia,Protect,P,levees,levees,(P) levees,levee(|s)
+Sofia,Protect,P,living shorelines,living shorelines,(P) living shorelines,living shoreline(s|)
+Sofia,Protect,P,low-cost green protection measures,nurturing mangroves,(P) nurturing mangroves,mangrove(s|) nurturing[a-z]*
+Sofia,Protect,P,low-cost green protection measures,planting mangroves,(P) planting mangroves,mangrove(s|) plant[a-z]*
+Sofia,Protect,P,beach replenishment,beach nourishment,(P) beach nourishment,nourishment [a-z]* beach
+Sofia,Protect,P,low-cost green protection measures,nurturing mangroves,(P) nurturing mangroves,nurturing[a-z]* [a-z]* mangrove(s|)
+Sofia,Protect,P,low-cost green protection measures,nurturing mangroves,(P) nurturing mangroves,nurturing[a-z]* mangrove(s|)
+Thorid,Protect,P,community,community organisation,(P) community organisation,organi(s|z)ation [a-z]* community
+Thorid,Protect,P,community,community organisation,(P) community organisation,resist[a-z]* communit[a-z]*
+Thorid,Protect,P,community,community organisation,(P) community organisation,communit[a-z]* resist[a-z]*
+Thorid,Protect,P,community,community organisation,(P) community organisation,resist[a-z]* soci[a-z]*
+Thorid,Protect,P,community,community organisation,(P) community organisation,soci[a-z]* resist[a-z]*
+Thorid,Protect,P,community,community organisation,(P) community organisation,planning [a-z]* community
+Sofia,Protect,P,low-cost green protection measures,planting mangroves,(P) planting mangroves,plant[a-z]* [a-z]* mangrove(s|)
+Sofia,Protect,P,low-cost green protection measures,planting mangroves,(P) planting mangroves,plant[a-z]* mangrove(s|)
+Sofia,Protect,P,grade raising,grade raising,(P) grade raising,rais[a-z]* [a-z]* grade
+Sofia,Protect,P,land raising,land raising,(P) land raising,rais[a-z]* [a-z]* land
+Sofia,Protect,P,low-cost green protection measures,reed beds,(P) reed beds,reed(-|\s|)bed(s|)
+Sofia,Protect,P,beach replenishment,beach replenishment,(P) beach replenishment,replenishment [a-z]* beach
+Sofia,Protect,P,green–gray infrastructure,restoration of green spaces,(P) restoration of green spaces,restoration [a-z]* green(\s|-|)space(s|)
+Sofia,Protect,P,protection measures,riprap,(P) riprap,rip(|-|\s)rap
+Sofia,Protect,P,land raising,river diversion,(P) river diversion,river diversion
+Sofia,Protect,P,seawalls,seawalls,(P) seawalls,sea(-|\s|)defen(c|s)e(s|)
+Sofia,Protect,P,seawalls,seawalls,(P) seawalls,seawall(s|)
+Sofia,Protect,P,seawalls,sediment distribution,(P) sediment distribution,sediment distribution
+Sofia,Protect,P,protection measures,riprap,(P) riprap,shot(|-|\s)rock
+Sofia,Protect,P,wave dissipation structure,wave dissipation structure,(P) wave dissipation structure,structure [a-z]* wave(|-|\s)dissipation
+Sofia,Protect,P,flood control structures,flood control structures,(P) flood control structures,structure(|s) [a-z]* flood(\s|-|)control
+Thorid,Protect,P,flood control structures,tidal barriers,(P) tidal barriers,tidal barrier(s|)
+Thorid,Protect,P,flood control structures,water basins,(P) water basins,water(\s|-)basin(s|)
+Thorid,Protect,P,flood control structures,water control structures,(P) water control structures,water(\s|-)control structur[a-z]*
+Thorid,Protect,P,flood control structures,water retention areas,(P) water retention areas,water(-|\s)retention area(s|)
+Thorid,Protect,P,flood control structures,water retention areas,(P) water retention areas,water[a-z]* harvest[a-z]*
+Thorid,Protect,P,flood control structures,water retention areas,(P) water retention areas,harvest[a-z]* water[a-z]*
+Sofia,Protect,P,wave dissipation structure,break water,(P) break water,water(|\s|-)break
+Sofia,Protect,P,wave dissipation structure,wave dissipation structure,(P) wave dissipation structure,wave(|-|\s)dissipation structure
+Sofia,Protect,P,wave dissipation structure,wetlands,(P) wetlands,wetland(|s)
+Sofia,Retreat,R,migration,migration,(R) migration,migration
+Sofia,Retreat,R,relocation,property buyouts,(R) property buyouts,buy(|\s|-)out(s|)
+Sofia,Retreat,R,relocation,property buyouts,(R) property buyouts,eviction(s|)
+Sofia,Retreat,R,eminent domain,eminent domain,(R) eminent domain,eminent domain
+Thorid,Retreat,R,relocation,planned displacement,(R) planned displacement,forced(\s|-|)displacement
+Thorid,Retreat,R,relocation,(managed) retreat,(R) (managed) retreat,managed(\s|-|)retreat
+Thorid,Retreat,R,relocation,(managed) retreat,(R) (managed) retreat,plan[a-z]*(\s|-|)retreat
+Thorid,Retreat,R,relocation,move to new location,(R) move to new location,mov[a-z]* [a-z]* new location
+Thorid,Retreat,R,relocation,planned displacement,(R) planned displacement,planned(\s|-|)displacement
+Sofia,Retreat,R,relocation,relocation,(R) relocation,re(|\s|-)location
+Sofia,Retreat,R,rebuilding restrictions,rebuilding restrictions,(R) rebuilding restrictions,re(|-|\s)build[a-z]* restrict[a-z]*
+Thorid,Retreat,R,relocation,resettlement,(R) resettlement,resettlement
+Sofia,Retreat,R,wetland restoration,wetland restoration,(R) wetland restoration,restor[a-z]* [a-z]* wetland
+Sofia,Retreat,R,rolling easements,rolling easements,(R) rolling easements,rolling easement(s|)
+Sofia,Retreat,R,wetland restoration,wetland restoration,(R) wetland restoration,wetland restor[a-z]*
+Sofia,Retreat,R,withdrawal of government services from highly hazardous areas,withdrawal of government services from highly hazardous areas,(R) withdrawal of government services from highly hazardous areas,withdrawal [a-z]* government[a-z]* service(s|)
