@@ -11,12 +11,10 @@ Created on Fri Mar 17 08:54:24 2023
 # 
 # Last update: October 30th, 2024.
 # 
-# Description: Code to data handle the network data frame 
-#   "FarmersDataFrame_Phase1.csv" stored in DANS:
-# Gil-Clavel, Sofia; Filatova, Tatiana, 2024, "Interrelated Climate Change 
-#   Adaptation Measures and Factors", https://doi.org/10.17026/SS/PYZCXK, 
-#   DANS Data Station Social Sciences and Humanities, DRAFT VERSION; 
-#   FarmersDataFrame_Phase1.csv [fileName] 
+# Description: Functions to process the data used in the article:
+#   Gil-Clavel, S., Wagenblast, T., Akkerman, J., & Filatova, T. (2024, April 26). 
+#   Patterns in Reported Adaptation Constraints: Insights from Peer-Reviewed 
+#   Literature on Flood and Sea-Level Rise. https://doi.org/10.31235/osf.io/3cqvn
 # 
 # Computer Environment:
 #   - Windows 
