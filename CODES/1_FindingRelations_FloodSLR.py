@@ -10,19 +10,12 @@ from datetime import date
 
 from tqdm import tqdm
 
-# Saving Data into SQL
-# import sqlite3
 import pickle
 import subprocess
-# import pickle5 as pickle
 
 # Data Handling
 import pandas as pd
 tqdm.pandas(desc="my bar!")
-
-# https://pypi.org/project/parallel-pandas/
-from parallel_pandas import ParallelPandas
-ParallelPandas.initialize(n_cpu=5, split_factor=5, disable_pr_bar=True)
 
 import csv
 
@@ -65,8 +58,9 @@ import textwrap as twr
 # =============================================================================
 # Functions
 # =============================================================================
-os.chdir("C:\\Dropbox\\TU_Delft\\Projects\\ML_FindingsGrammar\\CODE\\Processing_PDFs\\")
+# os.chdir("C:\\Dropbox\\TU_Delft\\Projects\\ML_FindingsGrammar\\CODE\\Processing_PDFs\\")
 # os.chdir("C:\\Dropbox\\TU_Delft\\.Final_Deliverables\\4Github\\FUNCTIONS\\")
+os.chdir("C:\\Users\\Sofia Gil Clavel\\Documents\\GitHub\\NLP4LitRev\\MainFunctions\\")
 
 import Functions as FN
 import DataViz as DV
@@ -77,7 +71,7 @@ import FindTextPatterns as PTN
 # =============================================================================
 
 ## It used to be DT1.pickle
-with open('C:\\Dropbox\\TU_Delft\\Projects\\DataBase\\PROCESSED\\df2.pickle', 'rb') as handle:
+with open('C:\\Users\\Sofia Gil Clavel\\Dropbox\\TU_Delft\\Projects\\DataBase\\PROCESSED\\df2.pickle', 'rb') as handle:
     DT1 = pickle.load(handle)
 
 DT1["text2"]=DT1.apply(lambda x: x["dc:title"]+"\n"+x["description"],axis=1)
@@ -94,20 +88,21 @@ DT1["text2"]=DT1.apply(lambda x: x["description"]+"\n"+x.analysis+"\n"+x.results
                        x.findings+"\n"+x.conclusions+"\n"+x.discussion,axis=1)
 
 ### Adding the labeled Actors 
-ACTORS=pd.read_csv("C:\Dropbox\TU_Delft\Projects\Floods_CCA\PROCESSED\FloodArticlesActors.csv")
+ACTORS=pd.read_csv("C:\\Users\\Sofia Gil Clavel\\Dropbox\\TU_Delft\\Projects\\Floods_CCA\\PROCESSED\\FloodArticlesActors.csv")
 
 DT1=DT1.merge(ACTORS[['dc:identifier','accept']], 
                     on='dc:identifier', how = 'left')
 
 #### Further cleaning the text ####
-
-DT1["text_clean"]=DT1["text2"].progress_apply(lambda x: FN.CleanText(x))
+DIR="C:\\Users\\Sofia Gil Clavel\\Documents\\GitHub\\NLP4LitRev\MainFunctions\\"
+DIR_main="C:\\Users\\Sofia Gil Clavel\\Documents\\GitHub\\Database_CCA\\MainFunctions\\"
+DT1["text_clean"]=DT1["text2"].progress_apply(lambda x: FN.CleanText(x,DIR,DIR_main))
 
 # =============================================================================
 # Openning the models
 # =============================================================================
-nlp0 = spacy.load("C:\\Dropbox\\TU_Delft\\.Final_Deliverables\\DATA/3_PROCESSED_DATA/model/model-best/")
-nlp1 = spacy.load("C:\\Dropbox\\TU_Delft\\.Final_Deliverables\\MODELS\\model-best/") # This model is better at finding the nouns. It is en_core_sci_lg updated
+nlp0 = spacy.load("C:\\Users\\Sofia Gil Clavel\\Dropbox\\TU_Delft\\.Final_Deliverables\\DATA\\3_PROCESSED_DATA\\model\\model-best\\")
+nlp1 = spacy.load("C:\\Users\\Sofia Gil Clavel\\Dropbox\\TU_Delft\\.Final_Deliverables\\MODELS\\model-best\\") # This model is better at finding the nouns. It is en_core_sci_lg updated
 nlp2 = spacy.load('en_core_web_trf') # This model is better to find markers
 
 ### Detect all sentences
@@ -116,7 +111,7 @@ DT1["sentence"] = DT1["text_clean"].progress_apply(lambda x: list(map(nltk.sent_
 # =============================================================================
 # Extract (Subject, Verb, Object) from the findings
 # =============================================================================
-VERBS_dict=PTN.SignDict()
+VERBS_dict=PTN.SignDict("C:\\Users\\Sofia Gil Clavel\\Documents\\GitHub\\Database_CCA\\DATA\\Verbs.csv")
 
 ### Split sentences into (Subject, Verb, Object)
 DT1["SVAOS"]=DT1.sentence.progress_apply(lambda x: [PTN.FindAllSents(ii, nlp1, nlp2, VERBS_dict) 
@@ -136,16 +131,16 @@ DT1[DT1.apply(lambda x: any(x[2].find("buy - out")>-1 or x[2].find("buyout")>-1 
 # Replacing Subjects and Objects with Umbrella Categories
 # =============================================================================
 
+# ## Floods adaption strategies
+# ADAPT=pd.read_csv("C:/Dropbox/TU_Delft/Projects/Floods_CCA/DATA/FloodCCA_Driver_pyDict_TW.csv",sep = ",")
+# ADAPT=ADAPT.rename(columns={"Adaptation_Name":"Adaptation_Name","Adaptation_REGEX":"Adaptation_REGEX"})
+
 ## Floods adaption strategies
-ADAPT=pd.read_csv("C:/Dropbox/TU_Delft/Projects/Floods_CCA/DATA/FloodCCA_Driver_pyDict_TW.csv",sep = ",")
+ADAPT=pd.read_csv("C:\\Users\\Sofia Gil Clavel\\Documents\\GitHub\\FloodSLR_CCA\\DATA\\FloodCCA_Driver_pyDict_TWTF.csv",sep = ",")
 ADAPT=ADAPT.rename(columns={"Adaptation_Name":"Adaptation_Name","Adaptation_REGEX":"Adaptation_REGEX"})
 
-## Floods adaption strategies
-ADAPT_TF=pd.read_csv("C:/Dropbox/TU_Delft/Projects/Floods_CCA/DATA/FloodCCA_Driver_pyDict_TWTF.csv",sep = ",")
-ADAPT_TF=ADAPT_TF.rename(columns={"Adaptation_Name":"Adaptation_Name","Adaptation_REGEX":"Adaptation_REGEX"})
-
 ## Farmers' factors for FACTation
-FACT=pd.read_csv("C:\\Dropbox\\TU_Delft\\Projects\\Floods_CCA\\PROCESSED\\Factors_Dictionary_python_SGCTF.csv",sep = ",")
+FACT=pd.read_csv("C:\\Users\\Sofia Gil Clavel\\Documents\\GitHub\\FloodSLR_CCA\\PROCESSED\\Factors_Dictionary_python_SGCTF.csv",sep = ",")
 FACT=FACT.rename(columns={"Tatiana_Factor_Strategy":"Factor_Name","Factor_Strategy_RGX":"Factor_REGEX"})
 
 import warnings
@@ -154,7 +149,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 DT1["ADAPT"]=DT1.SVAOS.progress_apply(lambda x: FN.LabelMeasures(x,ADAPT,FACT))
 
 # To include Acronym at the beginning of the measure
-DT1["ADAPT_TF"]=DT1.SVAOS.progress_apply(lambda x: FN.LabelMeasures(x,ADAPT_TF,FACT))
+# DT1["ADAPT_TF"]=DT1.SVAOS.progress_apply(lambda x: FN.LabelMeasures(x,ADAPT_TF,FACT))
 
 # with open('C:\\Dropbox\\TU_Delft\\Projects\\Floods_CCA\\PROCESSED\\DT1_20240814.pickle', 'wb') as handle:
 #     pickle.dump(DT1, handle, protocol=pickle.HIGHEST_PROTOCOL)
@@ -165,7 +160,7 @@ DT1["ADAPT_TF"]=DT1.SVAOS.progress_apply(lambda x: FN.LabelMeasures(x,ADAPT_TF,F
 # =============================================================================
 # Keeping only those sentences that talk about CCA measures and/or factors
 # =============================================================================
-key="ADAPT_TF"
+key="ADAPT"
 DT1_FACTORS=DT1.explode(key)
 DT1_FACTORS[["NOUNA","SIGN","NOUNB"]]=pd.DataFrame(DT1_FACTORS[key].tolist(), index= DT1_FACTORS.index)
 DT1_FACTORS[["source","source_type"]]=pd.DataFrame(DT1_FACTORS.NOUNA.tolist(), index= DT1_FACTORS.index)
@@ -431,22 +426,22 @@ resolution=0.85
 
 PlotGraphNet(DB,TOBOLD2,FONT=8,COLORStat=COLORStatwACTOR,COLORS=COLORS,resolution=resolution,
              N_M=None,delta_edge=5,edge_sigmoidA=True,edge_sigmoid=False,q=0.5)
-plt.savefig("C:\\Dropbox\\TU_Delft\\Projects\\Floods_CCA\\IMAGES\\NetCat_ACTORS.png",
+plt.savefig("C:\\Users\\Sofia Gil Clavel\\Pictures\\NetCat_ACTORS.png",
             dpi=600, bbox_inches='tight')
 
 PlotGraphNet(DB,TOBOLD2,FONT=12,COLORStat=COLORStatwACTOR,COLORS=COLORS,resolution=resolution,
              N_M=[0],delta_edge=5,edge_sigmoidA=True,edge_sigmoid=False,q=0.5)
-plt.savefig("C:\\Dropbox\\TU_Delft\\Projects\\Floods_CCA\\IMAGES\\NetCat_ACTORS_0.png",
+plt.savefig("C:\\Users\\Sofia Gil Clavel\\Pictures\\NetCat_ACTORS_0.png",
             dpi=300, bbox_inches='tight')
 
 PlotGraphNet(DB,TOBOLD2,FONT=12,COLORStat=COLORStatwACTOR,COLORS=COLORS,resolution=resolution,
              N_M=[1],delta_edge=5,edge_sigmoidA=True,edge_sigmoid=False,q=0.5)
-plt.savefig("C:\\Dropbox\\TU_Delft\\Projects\\Floods_CCA\\IMAGES\\NetCat_ACTORS_1.png",
+plt.savefig("C:\\Users\\Sofia Gil Clavel\\Pictures\\NetCat_ACTORS_1.png",
             dpi=300, bbox_inches='tight')
 
 PlotGraphNet(DB,TOBOLD2,FONT=12,COLORStat=COLORStatwACTOR,COLORS=COLORS,resolution=resolution,
              N_M=[2],delta_edge=5,edge_sigmoidA=True,edge_sigmoid=False,q=0.5)
-plt.savefig("C:\\Dropbox\\TU_Delft\\Projects\\Floods_CCA\\IMAGES\\NetCat_ACTORS_2.png",
+plt.savefig("C:\\Users\\Sofia Gil Clavel\\Pictures\\NetCat_ACTORS_2.png",
             dpi=300, bbox_inches='tight')
 
 #### Figure Simple Example
@@ -457,7 +452,7 @@ DB2=DB2[['ID_ART','source', 'target','SIGN']]
 # TOBOLD2=[DV.AdDB2reakLine(x,n=1,breakAfter=3) for x in TOBOLD.keys()]
 PlotGraphNet(DB2,TOBOLD2,FONT=14,COLORStat=COLORStatwACTOR,COLORS=COLORS,resolution=0.5,
              N_M=None,delta_edge=5,edge_sigmoidA=False,edge_sigmoid=False,q=0,L=5)
-plt.savefig("C:\\Dropbox\\TU_Delft\\Projects\\Floods_CCA\\IMAGES\\NetCat_Migration.png",
+plt.savefig("C:\\Users\\Sofia Gil Clavel\\Pictures\\NetCat_Migration.png",
             dpi=300, bbox_inches='tight') # , bbox_inches='tight'
 
 W=["(P) dykes"]
@@ -467,7 +462,7 @@ DB2=DB2[['ID_ART','source', 'target','SIGN']]
 # TOBOLD2=[DV.AdDB2reakLine(x,n=1,breakAfter=3) for x in TOBOLD.keys()]
 PlotGraphNet(DB2,TOBOLD2,FONT=14,COLORStat=COLORStatwACTOR,COLORS=COLORS,resolution=0.5,
              N_M=None,delta_edge=5,edge_sigmoidA=False,edge_sigmoid=False,q=0,L=5)
-plt.savefig(f"C:\\Dropbox\\TU_Delft\\Projects\\Floods_CCA\\IMAGES\\NetCat_dykes.png",
+plt.savefig(f"C:\\Users\\Sofia Gil Clavel\\Pictures\\NetCat_dykes.png",
             dpi=300, bbox_inches='tight') # , bbox_inches='tight'
 
 ### Only ADAPT-FACT relations
@@ -500,7 +495,7 @@ resolution=1
 
 PlotGraphNet(DB,TOBOLD2,FONT=8,COLORStat=COLORStatwACTOR,COLORS=COLORS,resolution=resolution,
              N_M=list(range(6)),delta_edge=5,edge_sigmoidA=True,edge_sigmoid=False,q=0.5)
-plt.savefig("C:\\Dropbox\\TU_Delft\\Projects\\Floods_CCA\\IMAGES\\NetCat_ACTORS_FACT_ADAPT.png",
+plt.savefig("C:\\Users\\Sofia Gil Clavel\\Pictures\\NetCat_ACTORS_FACT_ADAPT.png",
             dpi=600, bbox_inches='tight')
 
 # with open('C:\\Dropbox\\TU_Delft\\Projects\\Floods_CCA\\PROCESSED\\DT1_FACTORS2wActors_20240814.pickle', 'wb') as handle:
