@@ -7,4 +7,4 @@ Abstract: Understanding climate change adaptation constraints for different acto
 
 This work is currently in the second round of revisions in a journal. The working paper can be accessed here. The codes to reproduce and replicate the work will be published upon publication of the article here. Also, the final database that results from the analysis will be stored in DANS under:
 
-* Gil-Clavel, Sofia; Filatova, Tatiana, 2024, “Interrelated Climate Change Adaptation Measures and Factors”, https://doi.org/10.17026/SS/PYZCXK, DANS Data Station Social Sciences and Humanities, DRAFT VERSION; FloodsSLRDataFrame_Phase1.csv [fileName].
+* Gil-Clavel, Sofia; Filatova, Tatiana, 2024, “Interrelated Climate Change Adaptation Measures and Factors”, https://doi.org/10.17026/SS/PYZCXK, DANS Data Station Social Sciences and Humanities, V1; FloodsSLRDataFrame_Phase1.csv [fileName].
